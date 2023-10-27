@@ -46,8 +46,8 @@ body {
 #hero {
   display: flex;
   justify-content: space-between;
-  align-items: center ;
-  width: 100%;  
+  align-items: center;
+  width: 100%;
   margin-top: 15vw;
   padding: 0vw 10vw;
 }
@@ -72,9 +72,9 @@ body {
   background-color: aqua;
 }
 
-#susimagewrapper img{
+#susimagewrapper img {
   position: absolute;
-  top: 40%; 
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 130%;
@@ -82,46 +82,45 @@ body {
   object-fit: cover;
 }
 
-#ephemeral{
+#ephemeral {
   position: relative;
   width: 30vw;
   min-height: 42vw;
 }
 
-#imgntext{
+#imgntext {
   width: fit-content;
   height: fit-content;
-  }
-  
+}
 
-#ephemeral img{
+#ephemeral img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-#ephemeral p{
+#ephemeral p {
   margin-top: 30px;
   font-size: 1.3vw;
-  letter-spacing: -.07vw;
+  letter-spacing: -0.07vw;
   line-height: 1.3;
   width: 40%;
 }
 
-#ephemeral #headings{
+#ephemeral #headings {
   top: -22%;
   left: -20%;
-   position: absolute;
+  position: absolute;
 }
 
-#ephemeral h1{
-  letter-spacing: -.4vw;
+#ephemeral h1 {
+  letter-spacing: -0.4vw;
   line-height: 1;
   font-size: 6vw;
   font-weight: 400;
 }
 
-#circlev{
+#circlev {
   border-radius: 50%;
   border: 1px solid #5e5e5e;
   cursor: pointer;
@@ -132,47 +131,47 @@ body {
   height: 3vw;
 }
 
-#visit{
+#visit {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-#visit h3{
+#visit h3 {
   font-weight: 100;
   color: #5e5e5e;
 }
 
-#circlev i{
+#circlev i {
   font-weight: 400;
   color: #5e5e5e;
 }
 
-#motive{
+#motive {
   margin-top: 7vw;
   display: flex;
   justify-content: space-between;
   padding: 3vw 10vw;
 }
 
-#motive p{
+#motive p {
   line-height: 1.7;
-  letter-spacing: -.15vw;
+  letter-spacing: -0.12vw;
   position: relative;
   right: 0;
   width: 85%;
   text-align: right;
-  font-size: 2vw;
+  font-size: 2.1vw;
 }
 
-#motive span{
+#motive span {
   display: inline-block;
   border-radius: 100px;
   margin: 0 13px;
   margin-bottom: -12.5px;
 }
 
-#onespan{
+#onespan {
   width: 80px;
   height: 50px;
   background-image: url(/assets/img/bluegirl.jpg);
@@ -180,7 +179,7 @@ body {
   background-position: 0% 60%;
 }
 
-#twospan{
+#twospan {
   width: 130px;
   height: 60px;
   background-image: url(/assets/img/shaljam.jpg);
@@ -188,10 +187,29 @@ body {
   background-position: 0% 48%;
 }
 
-#threespan{
+#threespan {
   width: 80px;
   height: 50px;
   background-image: url(/assets/img/grass.jpg);
   background-size: cover;
   background-position: 0% 60%;
+}
+
+#pictures {
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-left: 12vw;
+}
+
+
+#firstpic{
+  width: 17vw;
+}
+
+
+#firstpic #picimg {
+  width: 100%;
+  height: 22vw;
+  margin-bottom: 1vw;
+  background-color: red;
 }
